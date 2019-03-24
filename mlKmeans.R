@@ -2,7 +2,9 @@
 #mlKmeans returns a list with cluster assignment
 
 x = read.csv("/home/ashleymavericks/Documents/selected_features.csv")
-mlKmeans(x,2)
+x[,1]
+as.matrix(x)
+mlKmeans(x,10)
 
 
 
