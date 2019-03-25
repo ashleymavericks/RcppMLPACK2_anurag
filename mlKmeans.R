@@ -4,7 +4,7 @@
 x = read.csv("/home/ashleymavericks/Documents/selected_features.csv")
 x[,1]
 as.matrix(x)
-mlKmeans(x,10)
+mlKmeans(x,2)
 
 
 
